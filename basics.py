@@ -149,8 +149,10 @@ print(dictionary)
 
 # Functions
 
+
 def func(x):
     return x * 3
+
 
 print(func(3))
 
@@ -160,8 +162,10 @@ print(g(2))
 g = lambda x, y: min(x ** 2 / y, y ** 2 / x)
 print(g(2, 3))
 
+
 def f(x):
     print(x)
+
 
 f2 = f
 print(f2('moshe'))
